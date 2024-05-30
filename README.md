@@ -1,6 +1,6 @@
 # NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge
 
-See [NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md](https://github.com/marinednadude/NOAA-PMEL-OME-COI-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-COI-PCR-Protocol-BeBOP.md) for detailed protocol.  
+See [NOAA-PMEL-OME-Extraction-Protocol-Sterivex-Centrifuge.md](https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md) for detailed protocol.  
 This is verion 0.0 and is draft document that has not been finalized or version controlled.
 
 ## Disclaimer
