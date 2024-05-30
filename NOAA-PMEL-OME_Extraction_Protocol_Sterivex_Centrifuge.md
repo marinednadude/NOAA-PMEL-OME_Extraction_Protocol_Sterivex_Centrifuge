@@ -247,3 +247,7 @@ Record troubleshooting notes and issues in the lab notebook.
 ## APPENDIX A: DATASHEETS
 
 [OME_Extraction_Protocol_Sterivex_Centrifuge_ProtocolSheet_Draft1](https://docs.google.com/spreadsheets/d/1eV9ZGLAssunCY_ozVOMbVEWWGrlosp8IkIpnyM1dDEU/edit?pli=1#gid=0)
+
+## APPENDIX B: VIDEO & IMAGE FILES
+[NOAA-PMEL-OME_Extraction_Protocol_Centrifuge_SterivexDiagrams](https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Centrifuge_SterivexDiagrams.pdf)
+
