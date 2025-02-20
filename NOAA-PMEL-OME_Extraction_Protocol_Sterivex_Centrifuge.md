@@ -1,41 +1,64 @@
+---
+# MIOP terms
+methodology_category: sample extraction and purification
+project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program Protocols
+purpose: biodiversity assessment objective [OBI:0001969]
+analyses: DNA extraction [OBI:0000257]
+geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323]
+broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
+local_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209], marine benthic biome [ENVO:01000024], oceanic epipelagic zone biome [ENVO:01000035]
+environmental_medium: sea water [ENVO:00002149]
+target: deoxyribonucleic acid (DNA) [NCIT:C449]
+creator: Shannon Brown, Han Weinrich, and Zachary Gold
+materials_required: vortexer [OBI:0400118], centrifuge [OBI:0400106], incubator [OBI:0000136]
+skills_required: sterile technique, pipetting skills, standard molecular technique
+time_required: 	480
+personnel_required: 1
+language: en
+issued:	2024-05-30
+audience: scientists
+publisher:	NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+hasVersion: 1
+license: CC0 1.0 Universal
+maturity level: mature
+
+# FAIRe terms
+samp_vol_we_dna_ext: 1000
+samp_vol_we_dna_ext_unit: mL
+nucl_acid_ext_lysis: enzymatic | thermal
+nucl_acid_ext_sep: column-based
+nucl_acid_ext: https://doi.org/10.1111/2041-210X.12683
+nucl_acid_ext_kit: Qiagen DNeasy Blood and Tissue Kit, 250
+nucl_acid_ext_modify: Modified for sterivex, reagent volume altered
+dna_cleanup_0_1: 0
+dna_cleanup_method: not applicable
+concentration: not applicable
+concentration_method: not applicable
+ratioOfAbsorbance260_280: not applicable
+pool_dna_num: not applicable
+nucl_acid_ext_method_additional: not applicable
+---
+
 # NOAA PMEL OME Extraction Protocol for Sterivex Using a Centrifuge
 
-### Quick Links:
+## PROTOCOL INFORMATION
 
-- [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
-- [Background](#BACKGROUND)
-- [Equipment](#EQUIPMENT)
-- [Standard Operating Procedure (main protocol)](#STANDARD-OPERATING-PROCEDURE)
+### Minimum Information about an Omics Protocol (MIOP)
 
-## Minimum Information about an Omics Protocol (MIOP)
+- MIOP terms are listed in the YAML frontmatter of this page.
+- See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
 
-See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
+### Making eDNA FAIR (FAIRe)
 
-| MIOP Term  | Value |
-| ------------- | ------------- | 
-| methodology category  | sample extraction and purification |
-| project  | NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program Protocols |
-| purpose  | 	biodiversity assessment objective [OBI:0001969] |
-| analyses  | DNA extraction [OBI:0000257] |
-| geographic location  | North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323] |
-| broad-scale environmental context  |oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine benthic biome [ENVO:01000024]  |
-| local environmental context  |oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024]  |
-| environmental medium  |	sea water [ENVO:00002149]  |
-| target  | deoxyribonucleic acid (DNA) [NCIT:C449] |
-| creator  | Shannon Brown, Han Weinrich, and Zachary Gold |
-| materials required  | centrifuge [OBI:0400106] ; incubator [OBI:0000136] |
-| skills required  | sterile technique, pipetting skills, and standard molecular technique |
-| time required  | 480 |
-| personnel required  | 1 |
-| language  | en |
-| issued  | 2024-05-30 |
-| audience  | scientists |
-| publisher  | 	NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies |
-| hasVersion  | 1 |
-| license  | CC0 1.0 Universal |
-| maturity level  | mature |
+- FAIRe terms are listed in the YAML frontmatter of this page.
+- See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
+- See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
 
-## AUTHORS
+### Authors
+
+- All authors known to have contributed to the preparation of this protocol, including those who filled in the template.
+- Visit https://orcid.org/ to register for an ORCID.
+- Date is the date the author first worked on the protocol.
 
 | PREPARED BY All authors known to have contributed to the preparation of this protocol, including those who filled in the template.  | AFFILIATION | ORCID (visit https://orcid.org/ to register) | DATE |
 | ------------- | ------------- | ------------- | ------------- |
@@ -43,52 +66,117 @@ See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_tem
 | Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0009-0007-6063-0986 |2024-02-02|
 |Sean McAllister	|Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|0000-0001-6654-3495	|2024-02-02|
 |Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|	0000-0002-4257-0170	|2024-02-02|
-|Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|0000-0003-0490-7630	|2024-02-02|
 
-## RELATED PROTOCOLS
+### Related Protocols
 
-| PROTOCOL NAME | LINK  | VERSION The version of the protocol you linked to | RELEASE DATE This is the date corresponding to the version listed to the left |
-| ------------- | ------------- | ------------- | ------------- |
-| DNA Extraction Protocol from Sterivex Filters by Shea and Boehm |[Link](dx.doi.org/10.17504/protocols.io.ewov1qyyygr2/v1) | 1.0  | 2023-08-01  |
-| Spens et al. 2017 |[Link](https://doi.org/10.1111/2041-210X.12683) | 1.0  | 2016-11-15  |
+- This section contains protocols that should be known to users of this protocol.
+- Internal Protocols: Derivative or altered protocols, or other protocols in this workflow.
+- External Protocols: Protcols from manufacturers or other groups. 
+- Include the link to each protocol.
+- Include the version number (internal) or access date (external) of the protocol when it was accessed.
+
+#### Internal Protocols
+
+| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE |
+| ------------- | ------------ | ------------ | ------------ |
 | PPS Extraction  | Pending  | 1.0  |   |
 | Qiavac Extraction  | Pending | 1.0  |   |
 | Qubit Protocol  | Pending | 1.0  | |
-# BACKGROUND
+
+#### External Protocols
+
+| PROTOCOL NAME | LINK | ISSUER / AUTHOR | ACCESS DATE |
+| ------------- | ------------- | ------------- | ------------- |
+| DNA Extraction Protocol from Sterivex Filters by Shea and Boehm |[Link](dx.doi.org/10.17504/protocols.io.ewov1qyyygr2/v1) | 1.0  | 2023-08-01  |
+| Spens et al. 2017 |[Link](https://doi.org/10.1111/2041-210X.12683) | 1.0  | 2016-11-15  |
+
+
+### Protocol Revision Record
+
+- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
+- Release date is the date when a given protocol version was finalised.
+- Description of revisions includes a brief description of what was changed relative to the previous version.
+
+| VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
+| ------------- | ------------- | ------------- |
+| 1.0.0 | 2024-05-30 | Initial release |
+| 1.2.0 | 2025-02-20 | Formatting updates to new BeBOP format |
+
+### Acronyms and Abbreviations
+
+| ACRONYM / ABBREVIATION | DEFINITION |
+| ------------- | ------------- |
+|eDNA	|environmental DNA|
+|PCR| Polymerase chain reaction |
+|PPE    | Personal protective equipment |
+|EtOH| Ethanol|
+|NTC	|No template control
+|BSC	|Biosafety cabinent
+|OME	|Ocean Molecular Ecology
+|PMEL	|Pacific Marine Environmental Laboratory
+|NOAA|National Oceanic and Atmospheric Administration
+|UW| University of Washington
+|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+|MBON	|Marine Biodiversity Observation Network|
+|MBARI| Monterey Bay Aquarium Research Institute|
+|WC-OBON|West Coast Ocean Biomolecular Observing Network|
+### Glossary
+
+| SPECIALISED TERM | DEFINITION |
+| ------------- | ------------- |
+| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step.  |
+| Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step.  |
+| No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
+| Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
+
+
+## BACKGROUND
+
+This document describes the required protocol to extract DNA from a sterivex filter.
 
 ## Summary
 
 Nucleic acids extraction from the sterivex filters using the Qiagen DNeasy Blood and Tissue Kit with some modifications to the manufacturer’s protocol. These extraction protocols, adapted from [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683), are used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
 
+
 ## Method description and rationale
 
 The [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683) protocol is a widely used, highly reproducible, and easily executeable DNA extraction protocol from Sterivex filters. Sterivex filters are a commonly used filter for seawater sampling including by the [PMEL Ocean Molecular Ecology Program](https://www.pmel.noaa.gov/ocean-molecular-ecology/) and the [NOAA CalCOFI Ocean Genomics](https://calcofi.com/index.php?option=com_content&view=category&layout=blog&id=234&Itemid=1142) group. This extraction protocol from sterivex samples has been demonstrated to generate sufficient DNA yields while minimizing contamination (Spens et al. 2017, Shea et al. 2023).
+
 
 ## Spatial coverage and environment(s) of relevance
 
 This protocol has been used to extract DNA from tens of thousands of filtered sea water samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
 
 
-## Personnel Required
+
+## PERSONNEL REQUIRED
 
 One person with molecular biology experience.
 
-## Safety
+### Safety
 
 Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. For other reagents, standard precautions including wearing PPE should be taken to avoid skin and eye exposure to chemicals.
 
-
-
-## Training requirements
+### Training requirements
 
 Molecular biology training (including, at a minimum, sterile technique, pipetting small volumes, and previous DNA/RNA extraction experience) is required to conduct this protocol.
-## Time needed to execute the procedure
+
+
+### Time needed to execute the procedure
 
 Extracting DNA from 24 sterivex samples takes 8 hours (480 minutes) including incubation time. 
 
-# EQUIPMENT
+## EQUIPMENT
 
-| DESCRIPTION e.g. filter | PRODUCT NAME AND MODEL Provide the official name of the product | MANUFACTURER Provide the name of the manufacturer of the product. | QUANTITY Provide quantities necessary for one application of the standard operating procedure (e.g. number of filters). | REMARK For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure. |
+- Opentrons Consumables: If using Opentrons OT-2 Robot for KF Plate Prep.
+- Description: E.g., "filter".
+- Product Name and Model: Provide the official name of the product.
+- Manufacturer: Provide the name of the manufacturer of the product.
+- Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
+- Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
+
+| DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment** |||||||
 |BioSafety II cabinet|Biological safety cabinet (INT-1100A2)|Kewaunee|1|Can be substituted with generic; internal UV light required.|
@@ -136,12 +224,21 @@ Extracting DNA from 24 sterivex samples takes 8 hours (480 minutes) including in
 | 10% bleach | Hypochlorite bleach | Clorox | 10 |(mL) Remake every ~5 days as bleach decomposes quickly at 10% concentration. Don't expose to UV light. |
 
 
-# STANDARD OPERATING PROCEDURE
-### Preparation
+
+## STANDARD OPERATING PROCEDURE
+
+In the following SOP, please use the exact names of equipment as noted in the table above.
+
+Provide a step-by-step description of the protocol. The identification of difficult steps in the protocol and the provision of recommendations for the execution of those steps are encouraged.
+
+### DNA extraction
+
+#### Preparation
 
 To minimize risk of sample contamination, this protocol should be carried out in dedicated eDNA extraction laboratories/rooms. When possible, the full dedicated lab space should be sterilized with UV.
 
-#### Before DNA Extraction:
+#### Before DNA Extraction
+
 
 1. Run UV light for 30 minutes in BioSafety II cabinet (BSC) and room, if not run since last use.
 2. Sterilize workspaces and durable equipment, including pipettes within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes.
@@ -153,7 +250,7 @@ To minimize risk of sample contamination, this protocol should be carried out in
 **Recommended (not required)**: Aliquot Buffer AW1 and AW2 into 50 mL falcon tubes to reduce contamination caused by repeated use of large volume bottles.
 
 
-### DNA Extraction
+#### Extraction
 
 1. Fill a sterile, 5 mL luer lock syringe with air, remove the sterivex inlet cap and dispose. Attach the syringe to the sterivex. Remove the outlet cap but don’t dispose (place on a sterile surface face up). Use the syringe to push air slowly through the filter; KEEP THE SYRINGE. If you push air through the filter 2-3x, most liquid is removed. 
 2.  In one 50 mL tube rack, dry the sterivex filters by placing them vertically with the ‘inlet end’ facing down. Let them blot on kimwipes previously placed on the bottom of the rack. Allow to dry while completing the next few steps.
@@ -187,15 +284,14 @@ To minimize risk of sample contamination, this protocol should be carried out in
 **Note:** Tubes containing DNA aliquots should be labeled on both the top and side with at least the sample number. OME also labels the sides of storage tubes with the cruise number and date of extraction. 
 
 
-   
-
-## Quality control
+### Quality control
 
 A negative control (field blank or extraction blank) is included in every 24 set of extractions (i.e., 23 samples + NC). Samples and controls are quantified to verify DNA concentration. [NOAA-PMEL-OME-Qubit-Protocol pending]. Lastly, samples are PCR amplified alongside no-template and positive controls.
 
 **Recommended (not required):** OME splits all DNA extracts into three aliquots: a working stock for immediate use at -20°C (~20-30 µl) in a 1.5 mL tube; a backup stock at -20°C in case the working stock is finished or contaminated (~30-40 uL) in a 1.5 mL tube; and an archival stock in a 1.5 mL gasketed cryotubes and frozen at -80°C indefinitely (~40 µl). All are stored in labeled cryoboxes.
 
-## Basic troubleshooting guide
+
+### Basic troubleshooting guide
 
 **Issue 1:** Column clogging when pipetting sample/Buffer AL/EtOH mixture to spin columns
 
@@ -212,37 +308,9 @@ A negative control (field blank or extraction blank) is included in every 24 set
 Record troubleshooting notes and issues in the lab notebook.
 
 
-## ACRONYMS AND ABBREVIATIONS
-
-| ACRONYM / ABBREVIATION | DEFINITION |
-| ------------- | ------------- |
-|eDNA	|environmental DNA|
-|PCR| Polymerase chain reaction |
-|PPE    | Personal protective equipment |
-|EtOH| Ethanol|
-|NTC	|No template control
-|BSC	|Biosafety cabinent
-|OME	|Ocean Molecular Ecology
-|PMEL	|Pacific Marine Environmental Laboratory
-|NOAA|National Oceanic and Atmospheric Administration
-|UW| University of Washington
-|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
-|MBON	|Marine Biodiversity Observation Network|
-|MBARI| Monterey Bay Aquarium Research Institute|
-|WC-OBON|West Coast Ocean Biomolecular Observing Network|
-
-## GLOSSARY
-
-| SPECIALISED TERM | DEFINITION |
-| ------------- | ------------- |
-| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step.  |
-| Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step.  |
-| No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
-| Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
-
 ## REFERENCES
 
-1. Spens, J., Evans, A. R., Halfmaerten, D., Knudsen, S. W., Sengupta, M. E., Mak, S. S. T., Sigsgaard, E. E., & Hellström, M. (2017). Comparison of capture and storage methods for aqueous macrobial eDNA using an optimized extraction protocol: advantage of enclosed filter. Methods in Ecology and Evolution, 8 (5), 635-645. https://doi.org/10.1111/2041-210X.12683
+Spens, J., Evans, A. R., Halfmaerten, D., Knudsen, S. W., Sengupta, M. E., Mak, S. S. T., Sigsgaard, E. E., & Hellström, M. (2017). Comparison of capture and storage methods for aqueous macrobial eDNA using an optimized extraction protocol: advantage of enclosed filter. Methods in Ecology and Evolution, 8 (5), 635-645. https://doi.org/10.1111/2041-210X.12683
 
 ## APPENDIX A: DATASHEETS
 
@@ -250,4 +318,3 @@ Record troubleshooting notes and issues in the lab notebook.
 
 ## APPENDIX B: VIDEO & IMAGE FILES
 [NOAA-PMEL-OME_Extraction_Protocol_Centrifuge_SterivexDiagrams](https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Centrifuge_SterivexDiagrams.pdf)
-
