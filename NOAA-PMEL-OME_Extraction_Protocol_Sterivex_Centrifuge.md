@@ -1,15 +1,15 @@
 ---
 # MIOP terms
 methodology_category: sample extraction and purification
-project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program Protocols
+project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group protocols
 purpose: biodiversity assessment objective [OBI:0001969]
 analyses: DNA extraction [OBI:0000257]
 geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323]
 broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
-local_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209], marine benthic biome [ENVO:01000024], oceanic epipelagic zone biome [ENVO:01000035]
+local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024]
 environmental_medium: sea water [ENVO:00002149]
 target: deoxyribonucleic acid (DNA) [NCIT:C449]
-creator: Shannon Brown, Han Weinrich, and Zachary Gold
+creator: Shannon Brown, Han Weinrich, Zachary Gold
 materials_required: vortexer [OBI:0400118], centrifuge [OBI:0400106], incubator [OBI:0000136]
 skills_required: sterile technique, pipetting skills, standard molecular technique
 time_required: 	480
@@ -17,7 +17,7 @@ personnel_required: 1
 language: en
 issued:	2024-05-30
 audience: scientists
-publisher:	NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+publisher:	NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
 license: CC0 1.0 Universal
 maturity level: mature
@@ -70,26 +70,17 @@ nucl_acid_ext_method_additional: not applicable
 ### Related Protocols
 
 - This section contains protocols that should be known to users of this protocol.
-- Internal Protocols: Derivative or altered protocols, or other protocols in this workflow.
-- External Protocols: Protcols from manufacturers or other groups. 
 - Include the link to each protocol.
-- Include the version number (internal) or access date (external) of the protocol when it was accessed.
+- Include the version number and release date (if available).
+- Internal/External: "Internal" are derivative or altered protocols, or other protocols in this workflow. "External" are protcols from manufacturers or other groups.
 
-#### Internal Protocols
-
-| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE |
-| ------------- | ------------ | ------------ | ------------ |
-| PPS Extraction  | Pending  | 1.0  |   |
-| Qiavac Extraction  | Pending | 1.0  |   |
-| Qubit Protocol  | Pending | 1.0  | |
-
-#### External Protocols
-
-| PROTOCOL NAME | LINK | ISSUER / AUTHOR | ACCESS DATE |
-| ------------- | ------------- | ------------- | ------------- |
-| DNA Extraction Protocol from Sterivex Filters by Shea and Boehm |[Link](dx.doi.org/10.17504/protocols.io.ewov1qyyygr2/v1) | 1.0  | 2023-08-01  |
-| Spens et al. 2017 |[Link](https://doi.org/10.1111/2041-210X.12683) | 1.0  | 2016-11-15  |
-
+| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
+| ------------- | ------------ | ------------ | ------------ | ----------------- |
+| NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge | Pending  | 1.0.0  | Internal |
+| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Qiavac | Pending  | 1.0.0  | Internal |
+| NOAA-PMEL-OME_DNA_Quantification_Protocol | Pending  | 1.0.0  | Internal |
+| DNA Extraction Protocol from Sterivex Filters by Shea and Boehm |dx.doi.org/10.17504/protocols.io.ewov1qyyygr2/v1 | 1.0  | 2023-08-01  | External |
+| Spens et al. 2017 |https://doi.org/10.1111/2041-210X.12683 | 1.0  | 2016-11-15  | External |
 
 ### Protocol Revision Record
 
@@ -100,32 +91,31 @@ nucl_acid_ext_method_additional: not applicable
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2024-05-30 | Initial release |
-| 1.2.0 | 2025-02-20 | Formatting updates to new BeBOP format |
+| 1.1.0 | 2025-02-20 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
+| 1.1.1 | 2025-02-20 | Minor content and format revisions |
 
 ### Acronyms and Abbreviations
 
 | ACRONYM / ABBREVIATION | DEFINITION |
 | ------------- | ------------- |
-|eDNA	|environmental DNA|
-|PCR| Polymerase chain reaction |
-|PPE    | Personal protective equipment |
-|EtOH| Ethanol|
-|NTC	|No template control
-|BSC	|Biosafety cabinent
-|OME	|Ocean Molecular Ecology
-|PMEL	|Pacific Marine Environmental Laboratory
-|NOAA|National Oceanic and Atmospheric Administration
-|UW| University of Washington
+|BSC	|Biosafety cabinent |
 |CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
-|MBON	|Marine Biodiversity Observation Network|
-|MBARI| Monterey Bay Aquarium Research Institute|
-|WC-OBON|West Coast Ocean Biomolecular Observing Network|
+|DNA	|Deoxyribonucleic acid|
+|eDNA	|environmental DNA|
+|EtOH| Ethanol|
+|NOAA|National Oceanic and Atmospheric Administration|
+|OME	|Ocean Molecular Ecology|
+|PCR| Polymerase chain reaction |
+|PMEL	|Pacific Marine Environmental Laboratory
+|PPE    | Personal protective equipment |
+|UW| University of Washington
+
 ### Glossary
 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
-| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step.  |
 | Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step.  |
+| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step.  |
 | No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
 | Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
 
@@ -134,23 +124,21 @@ nucl_acid_ext_method_additional: not applicable
 
 This document describes the required protocol to extract DNA from a sterivex filter.
 
-## Summary
+### Summary
 
 Nucleic acids extraction from the sterivex filters using the Qiagen DNeasy Blood and Tissue Kit with some modifications to the manufacturer’s protocol. These extraction protocols, adapted from [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683), are used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
 
 
-## Method description and rationale
+### Method Description and Rationale
 
 The [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683) protocol is a widely used, highly reproducible, and easily executeable DNA extraction protocol from Sterivex filters. Sterivex filters are a commonly used filter for seawater sampling including by the [PMEL Ocean Molecular Ecology Program](https://www.pmel.noaa.gov/ocean-molecular-ecology/) and the [NOAA CalCOFI Ocean Genomics](https://calcofi.com/index.php?option=com_content&view=category&layout=blog&id=234&Itemid=1142) group. This extraction protocol from sterivex samples has been demonstrated to generate sufficient DNA yields while minimizing contamination (Spens et al. 2017, Shea et al. 2023).
 
 
-## Spatial coverage and environment(s) of relevance
+### Spatial Coverage and Environment(s) of Relevance
 
 This protocol has been used to extract DNA from tens of thousands of filtered sea water samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
 
-
-
-## PERSONNEL REQUIRED
+### Personnel Required
 
 One person with molecular biology experience.
 
@@ -158,23 +146,23 @@ One person with molecular biology experience.
 
 Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. For other reagents, standard precautions including wearing PPE should be taken to avoid skin and eye exposure to chemicals.
 
-### Training requirements
+### Training Requirements
 
 Molecular biology training (including, at a minimum, sterile technique, pipetting small volumes, and previous DNA/RNA extraction experience) is required to conduct this protocol.
 
+### Time Required to Execute the Procedure
 
-### Time needed to execute the procedure
-
-Extracting DNA from 24 sterivex samples takes 8 hours (480 minutes) including incubation time. 
+Extracting DNA from 24 sterivex samples, including a field blank, takes 8 hours (480 minutes) including incubation time. 
 
 ## EQUIPMENT
 
-- Opentrons Consumables: If using Opentrons OT-2 Robot for KF Plate Prep.
 - Description: E.g., "filter".
 - Product Name and Model: Provide the official name of the product.
 - Manufacturer: Provide the name of the manufacturer of the product.
 - Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
 - Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
+
+For full extraction set, including 23 eDNA samples and a field blank:
 
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -185,8 +173,8 @@ Extracting DNA from 24 sterivex samples takes 8 hours (480 minutes) including in
 | Vortex | Analog vortex mixer | Fisher Scientific | 1 | Can be substituted with generic. |
 | UV crosslinker | UV crosslinker AH (115V), 234100 | Boekel Scientific  | 1 | Recommended not required; can be substituted. |
 |-20°C freezer|TSX high-performance -20°C manual defrost freezer |Fisher Scientific|1|Can be substituted with generic but recommend temperature display.|
-|Pipettor: 20 - 200 uL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor.|
-|Pipettor: 100-1000 uL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor.|
+|Pipettor: 20 - 200 μL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor.|
+|Pipettor: 100-1000 μL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor.|
 | Microtube racks | 96-Well flipper microtube racks | Fisher Scientific | 2 | Can be substituted with generic but must fit 1.5-2.0 mL tubes. |
 | 50 mL tube racks | SPL snap 50 mL tube rack (25 place) | SPL Life Sciences | 2 | Can be substituted but must fit sterivex. |
 | 4-way tube racks | 4 way interlocking tube rack| Cole-Parmer | 4 | Can be substituted with generic, must fit 12 x 5 mL tubes and 50 mL tubes. |
@@ -203,7 +191,7 @@ Extracting DNA from 24 sterivex samples takes 8 hours (480 minutes) including in
 | Sterivex/syringe caps | Male/female sterile luer caps |McKesson | 48 | Can be subsituted with generic, must be sterile and individually packaged. |
 | 5 mL luer lock syringes | BD luer lock disposable syringe| BD | 24 | Can be subsituted with generic. Must be sterile and luer lock. |
 | Kimwipes | Delicate task wipes | Kimtech | 5 | Can be substituted with generic. Must be lint-free.|
-| Nitrile gloves | Powder free nitrile gloves | Fisher Scientific | 8 | Can be subsituted with generic nitrile gloves. Does not come sterile, must be sterilized before use (10% bleach followed by 70% EtOH) |
+| Nitrile gloves | Powder free nitrile gloves | Fisher Scientific | 8 | Can be subsituted with generic nitrile gloves. Does not come sterile, must be sterilized before use.|
 | Lab notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space|
 | Writing utensils | Sharpies and pens | Generic | 2 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH.  |
 |Trash bags for BSC|Teivio 1.2 Gallon 360 Counts Strong Trash Bags|Teivio|3|Can be substituted with generic.|
@@ -212,33 +200,24 @@ Extracting DNA from 24 sterivex samples takes 8 hours (480 minutes) including in
 | Spin columns | Mini spin column | **Included in kit** | 24 | Kit contains 250 columns - sufficient for 250 extractions using this protocol) |
 | Collection tubes | 2 mL collection tube | **Included in kit**| 48 | Kit contains 500 tubes - sufficient for 250 extractions using this protocol) |
 | *QIAGEN kit chemicals* |  |  |  |  |
-| Buffer ATL | QIAGEN Buffer ATL | **Included in kit, may need to purchase additional** | 17.28  | (mL) Kit contains 50 mL  - sufficient for 69 extractions using this protocol; require 200 mL total for 250 extractions. |
-| Proteinase K | Qiagen Proteinase K | **Included in kit, may need to purchase additional** | 1.92  |  (mL) Kit contains 6 mL - sufficient for 75 extractions using this protocol; require 20 mL total for 250 extractions. |
-| Buffer AL | Qiagen Buffer AL | **Included in kit, may need to purchase additional** | 21.6 |(mL) Kit contains 66 mL - sufficient for 73 extractions using this protocol; require 225 mL total for 250 extractions. |
-| Buffer AW1 | Qiagen Buffer AW1 | **Included in kit** | 12 |(mL) Kit contains 98 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
-| Buffer AW2 | Qiagen Buffer AW2| **Included in kit** | 12|(mL) Kit contains 66 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
-| Buffer AE | Qiagen Buffer AE | **Included in kit** | 2.4 |(mL) Kit contains 120 mL - sufficient for 1200 extractions using this protocol. |
+| Buffer ATL | QIAGEN Buffer ATL | **Included in kit, may need to purchase additional** | 17.28 mL | Kit contains 50 mL  - sufficient for 69 extractions using this protocol; require 200 mL total for 250 extractions. |
+| Proteinase K | Qiagen Proteinase K | **Included in kit, may need to purchase additional** | 1920  μL  | Kit contains 6 mL - sufficient for 75 extractions using this protocol; require 20 mL total for 250 extractions. |
+| Buffer AL | Qiagen Buffer AL | **Included in kit, may need to purchase additional** | 21.6 mL | Kit contains 66 mL - sufficient for 73 extractions using this protocol; require 225 mL total for 250 extractions. |
+| Buffer AW1 | Qiagen Buffer AW1 | **Included in kit** | 12 mL | Kit contains 98 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
+| Buffer AW2 | Qiagen Buffer AW2| **Included in kit** | 12 mL| Kit contains 66 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
+| Buffer AE | Qiagen Buffer AE | **Included in kit** | 2400 μL | Kit contains 120 mL - sufficient for 1200 extractions using this protocol. |
 | **Chemicals** |
-| 100% molecular grade EtOH | 200 proof molecular biology grade ethanol | Fisher Scientific | 30| (mL) Can be substituted with generic, must be 200 proof and molecular biology grade |
-| 70% EtOH | Molecular biology grade ethanol | Generic | 20|(mL) Don't expose to UV light. |
-| 10% bleach | Hypochlorite bleach | Clorox | 10 |(mL) Remake every ~5 days as bleach decomposes quickly at 10% concentration. Don't expose to UV light. |
-
-
+| 100% molecular grade EtOH | 200 proof molecular biology grade ethanol | Fisher Scientific | 30 mL|Can be substituted with generic, must be 200 proof and molecular biology grade |
+| 70% EtOH | Molecular biology grade ethanol | 20 mL |  |
+| 10% bleach | Hypochlorite bleach | Clorox | 10 mL| Remake every ~5 days as bleach decomposes quickly at 10% concentration. The majority is used in bottle/tube sterilization.|
 
 ## STANDARD OPERATING PROCEDURE
-
-In the following SOP, please use the exact names of equipment as noted in the table above.
-
-Provide a step-by-step description of the protocol. The identification of difficult steps in the protocol and the provision of recommendations for the execution of those steps are encouraged.
-
-### DNA extraction
 
 #### Preparation
 
 To minimize risk of sample contamination, this protocol should be carried out in dedicated eDNA extraction laboratories/rooms. When possible, the full dedicated lab space should be sterilized with UV.
 
-#### Before DNA Extraction
-
+### Before DNA Extraction
 
 1. Run UV light for 30 minutes in BioSafety II cabinet (BSC) and room, if not run since last use.
 2. Sterilize workspaces and durable equipment, including pipettes within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes.
@@ -249,8 +228,7 @@ To minimize risk of sample contamination, this protocol should be carried out in
 
 **Recommended (not required)**: Aliquot Buffer AW1 and AW2 into 50 mL falcon tubes to reduce contamination caused by repeated use of large volume bottles.
 
-
-#### Extraction
+### DNA Extraction
 
 1. Fill a sterile, 5 mL luer lock syringe with air, remove the sterivex inlet cap and dispose. Attach the syringe to the sterivex. Remove the outlet cap but don’t dispose (place on a sterile surface face up). Use the syringe to push air slowly through the filter; KEEP THE SYRINGE. If you push air through the filter 2-3x, most liquid is removed. 
 2.  In one 50 mL tube rack, dry the sterivex filters by placing them vertically with the ‘inlet end’ facing down. Let them blot on kimwipes previously placed on the bottom of the rack. Allow to dry while completing the next few steps.
@@ -283,15 +261,13 @@ To minimize risk of sample contamination, this protocol should be carried out in
 
 **Note:** Tubes containing DNA aliquots should be labeled on both the top and side with at least the sample number. OME also labels the sides of storage tubes with the cruise number and date of extraction. 
 
+### Quality Control
 
-### Quality control
+A negative control (field blank or extraction blank) is included in every 24 set of extractions (i.e., 23 samples + NC). Samples and controls are quantified to verify DNA concentration. [NOAA-PMEL-OME-Qubit-Protocol pending]. Lastly, samples are PCR amplified alongside no template and positive controls.
 
-A negative control (field blank or extraction blank) is included in every 24 set of extractions (i.e., 23 samples + NC). Samples and controls are quantified to verify DNA concentration. [NOAA-PMEL-OME-Qubit-Protocol pending]. Lastly, samples are PCR amplified alongside no-template and positive controls.
+**Recommended (not required):** OME splits all DNA extracts into three aliquots: a working stock for immediate use at -20°C (~20-30 µl) in a 1.5 mL tube; a backup stock at -20°C in case the working stock is finished or contaminated (~30-40 μL) in a 1.5 mL tube; and an archival stock in a 1.5 mL gasketed cryotubes and frozen at -80°C indefinitely (~40 µl). All are stored in labeled cryoboxes.
 
-**Recommended (not required):** OME splits all DNA extracts into three aliquots: a working stock for immediate use at -20°C (~20-30 µl) in a 1.5 mL tube; a backup stock at -20°C in case the working stock is finished or contaminated (~30-40 uL) in a 1.5 mL tube; and an archival stock in a 1.5 mL gasketed cryotubes and frozen at -80°C indefinitely (~40 µl). All are stored in labeled cryoboxes.
-
-
-### Basic troubleshooting guide
+### Basic Troubleshooting Guide
 
 **Issue 1:** Column clogging when pipetting sample/Buffer AL/EtOH mixture to spin columns
 
@@ -306,7 +282,6 @@ A negative control (field blank or extraction blank) is included in every 24 set
 **Solution 3:** Re-run the spin down step in a fresh spin column. No additional buffer AW2 is added. If the issue persists, move to a new collection tube and respin.
 
 Record troubleshooting notes and issues in the lab notebook.
-
 
 ## REFERENCES
 
