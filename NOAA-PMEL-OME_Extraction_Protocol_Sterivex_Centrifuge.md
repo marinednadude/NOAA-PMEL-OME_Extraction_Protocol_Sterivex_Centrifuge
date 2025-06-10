@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 	480
 personnel_required: 1
 language: en
-issued:	2024-05-30
+issued:	2024-06-10
 audience: scientists
 publisher:	NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -78,7 +78,7 @@ nucl_acid_ext_method_additional: not applicable
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
 | NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge | Pending  | 1.0.0  | Internal |
 | NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Qiavac | Pending  | 1.0.0  | Internal |
-| NOAA-PMEL-OME_DNA_Quantification_Protocol | Pending  | 1.0.0  | Internal |
+| NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP | https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md | 1.0.0  | Internal |
 | DNA Extraction Protocol from Sterivex Filters by Shea and Boehm |dx.doi.org/10.17504/protocols.io.ewov1qyyygr2/v1 | 1.0  | 2023-08-01  | External |
 | Spens et al. 2017 |https://doi.org/10.1111/2041-210X.12683 | 1.0  | 2016-11-15  | External |
 
@@ -92,14 +92,15 @@ nucl_acid_ext_method_additional: not applicable
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2024-05-30 | Initial release |
 | 1.1.0 | 2025-02-20 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
-| 1.1.1 | 2025-02-20 | Minor content and format revisions |
+| 1.1.1 | 2025-05-30 | Minor content and format revisions |
+| 1.1.2 | 2025-06-10 | Added Qubit quantification protocol |
 
 ### Acronyms and Abbreviations
 
 | ACRONYM / ABBREVIATION | DEFINITION |
 | ------------- | ------------- |
 |BSC	|Biosafety cabinent |
-|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+|CICOES| Cooperative Institute for Climate, Ocean, and Ecosystem Studies|
 |DNA	|Deoxyribonucleic acid|
 |eDNA	|environmental DNA|
 |EtOH| Ethanol|
@@ -108,6 +109,7 @@ nucl_acid_ext_method_additional: not applicable
 |PCR| Polymerase chain reaction |
 |PMEL	|Pacific Marine Environmental Laboratory
 |PPE    | Personal protective equipment |
+|UV| Ultraviolet|
 |UW| University of Washington
 
 ### Glossary
@@ -263,7 +265,7 @@ To minimize risk of sample contamination, this protocol should be carried out in
 
 ### Quality Control
 
-A negative control (field blank or extraction blank) is included in every 24 set of extractions (i.e., 23 samples + NC). Samples and controls are quantified to verify DNA concentration. [NOAA-PMEL-OME-Qubit-Protocol pending]. Lastly, samples are PCR amplified alongside no template and positive controls.
+A negative control (field blank or extraction blank) is included in every 24 set of extractions (i.e., 23 samples + NC). Samples and controls are quantified to verify DNA concentration using the [NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md). Lastly, samples are PCR amplified alongside no template and positive controls.
 
 **Recommended (not required):** OME splits all DNA extracts into three aliquots: a working stock for immediate use at -20°C (~20-30 µl) in a 1.5 mL tube; a backup stock at -20°C in case the working stock is finished or contaminated (~30-40 μL) in a 1.5 mL tube; and an archival stock in a 1.5 mL gasketed cryotubes and frozen at -80°C indefinitely (~40 µl). All are stored in labeled cryoboxes.
 
