@@ -76,10 +76,9 @@ nucl_acid_ext_method_additional: not applicable
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge | Pending  | 1.0.0  | Internal |
-| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Qiavac | https://github.com/Brown-NOAA/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP.md | 1.0.0  | Internal |
-| NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP | https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md | 1.0.0  | Internal |
-| DNA Extraction Protocol from Sterivex Filters by Shea and Boehm |dx.doi.org/10.17504/protocols.io.ewov1qyyygr2/v1 | 1.0  | 2023-08-01  | External |
+| NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge_BeBOP | Pending  | 1.0.0  | Internal |
+| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Qiavac_BeBOP | https://github.com/Brown-NOAA/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP.md | 1.0.0  | Internal |
+| NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP | https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md | 1.0.0  | Internal |
 | Spens et al. 2017 |https://doi.org/10.1111/2041-210X.12683 | 1.0  | 2016-11-15  | External |
 
 ### Protocol Revision Record
