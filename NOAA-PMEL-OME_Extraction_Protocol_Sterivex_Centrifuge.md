@@ -25,7 +25,7 @@ maturity level: mature
 # FAIRe terms
 samp_vol_we_dna_ext: 1000
 samp_vol_we_dna_ext_unit: mL
-nucl_acid_ext_lysis: enzymatic | thermal
+nucl_acid_ext_lysis: physical | enzymatic | thermal
 nucl_acid_ext_sep: column-based
 nucl_acid_ext: https://doi.org/10.1111/2041-210X.12683
 nucl_acid_ext_kit: Qiagen DNeasy Blood and Tissue Kit, 250
