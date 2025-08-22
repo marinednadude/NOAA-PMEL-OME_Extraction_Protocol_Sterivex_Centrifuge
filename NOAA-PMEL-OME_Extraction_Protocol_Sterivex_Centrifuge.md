@@ -4,10 +4,10 @@ methodology_category: sample extraction and purification
 project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group protocols
 purpose: biodiversity assessment objective [OBI:0001969]
 analyses: DNA extraction [OBI:0000257]
-geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323]
-broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
-local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024]
-environmental_medium: sea water [ENVO:00002149]
+geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323], Lake Washington [GAZ:00008722]
+broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209], freshwater biome [ENVO:00000873]
+local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024], freshwater lake [ENVO:00000021]
+environmental_medium: sea water [ENVO:00002149], fresh water [ENVO:00002011]
 target: deoxyribonucleic acid (DNA) [NCIT:C449]
 creator: Shannon Brown, Han Weinrich, Zachary Gold
 materials_required: vortexer [OBI:0400118], centrifuge [OBI:0400106], incubator [OBI:0000136]
@@ -76,9 +76,9 @@ nucl_acid_ext_method_additional: not applicable
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge_BeBOP | Pending  | 1.0.0  | Internal |
-| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Qiavac_BeBOP | https://github.com/Brown-NOAA/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP.md | 1.0.0  | Internal |
-| NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP | [https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP.md) | 1.0.0  | Internal |
+| NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge | https://github.com/HanWeinrich/NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge.md  | 1.1.0  |2025-08-22 |Internal |
+| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Qiavac_BeBOP | https://github.com/Brown-NOAA/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP.md | 1.0.1  | 2025-08-22|Internal |
+| NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP | [https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP.md) | 1.0.1  |2025-08-22| Internal |
 | Spens et al. 2017 |https://doi.org/10.1111/2041-210X.12683 | 1.0  | 2016-11-15  | External |
 
 ### Protocol Revision Record
@@ -93,6 +93,7 @@ nucl_acid_ext_method_additional: not applicable
 | 1.1.0 | 2025-02-20 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 | 1.1.1 | 2025-05-30 | Minor content and format revisions |
 | 1.1.2 | 2025-06-10 | Added Qubit quantification protocol |
+| 1.1.3 | 2025-08-22 | Added disc filter extraction protocol, freshwater, corrected dates in related protocols |
 
 ### Acronyms and Abbreviations
 
@@ -137,7 +138,7 @@ The [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683) protocol is a wi
 
 ### Spatial Coverage and Environment(s) of Relevance
 
-This protocol has been used to extract DNA from tens of thousands of filtered seawater samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
+This protocol has been used to extract DNA from tens of thousands of filtered seawater samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska) as well as freshwater samples from Lake Washington. Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
 
 ### Personnel Required
 
