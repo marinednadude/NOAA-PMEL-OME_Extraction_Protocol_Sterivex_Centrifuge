@@ -77,7 +77,7 @@ nucl_acid_ext_method_additional: not applicable
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge | https://github.com/HanWeinrich/NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge.md  | 1.1.1  |2025-10-06 |Internal |
+| NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge |https://github.com/HanWeinrich/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge.md  | 1.1.1  | 2025-10-06 |Internal |
 | NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Qiavac | https://github.com/Brown-NOAA/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_QIAVac.md | 1.2.0 | 2025-10-06 |Internal|
 | NOAA-PMEL-OME_Qubit_Quantification_Protocol | https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP.md | 1.0.1  |2025-10-06| Internal |
 | Spens et al. 2017 |https://doi.org/10.1111/2041-210X.12683 | 1.0  | 2016-11-15  | External |
@@ -267,7 +267,7 @@ To minimize the risk of sample contamination, this protocol should be carried ou
 
 ### Quality Control
 
-A negative control (field blank or extraction blank) is included in every 24 set of extractions (i.e., 23 samples + NC). Samples and controls are quantified to verify DNA concentration using the [NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md). Lastly, samples are PCR amplified alongside no template and positive controls.
+A negative control (field blank or extraction blank) is included in every 24 set of extractions (i.e., 23 samples + NC). Samples and controls are quantified to verify DNA concentration using the [NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP.md). Lastly, samples are PCR amplified alongside no template and positive controls.
 
 **Recommended (not required):** OME splits all DNA extracts into three aliquots: a working stock for immediate use at -20°C (~20-30 µl) in a 1.5 mL tube; a backup stock at -20°C in case the working stock is finished or contaminated (~30-40 μL) in a 1.5 mL tube; and an archival stock in a 1.5 mL gasketed cryotubes and frozen at -80°C indefinitely (~40 µl). All are stored in labeled cryoboxes.
 
