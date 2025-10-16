@@ -109,9 +109,9 @@ nucl_acid_ext_method_additional: not applicable
 |NOAA|National Oceanic and Atmospheric Administration|
 |OME	|Ocean Molecular Ecology|
 |PCR| Polymerase chain reaction |
+|PES|Polyethersulfone|
 |PMEL	|Pacific Marine Environmental Laboratory
 |PPE    | Personal protective equipment |
-|PVDF|Polyvinylidene Fluoride|
 |UV| Ultraviolet|
 |UW| University of Washington
 
@@ -127,7 +127,7 @@ nucl_acid_ext_method_additional: not applicable
 
 ## BACKGROUND
 
-This document describes the required protocol to extract DNA from a 0.22 µm PVDF sterivex filter.
+This document describes the required protocol to extract DNA from a 0.22 µm PES sterivex filter.
 
 ### Summary
 
