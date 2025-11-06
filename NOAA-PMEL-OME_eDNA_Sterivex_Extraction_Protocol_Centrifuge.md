@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 	480
 personnel_required: 1
 language: en
-issued:	2024-10-06
+issued:	2025-11-06
 audience: scientists
 publisher:	NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -95,7 +95,7 @@ nucl_acid_ext_method_additional: not applicable
 | 1.1.1 | 2025-05-30 | Minor content and format revisions |
 | 1.1.2 | 2025-06-10 | Added Qubit quantification protocol |
 | 1.1.3 | 2025-08-22 | Added disc filter extraction protocol, freshwater, corrected dates in related protocols |
-| 1.1.4 | 2025-10-06 | FAIRe term update and minor spelling/grammar updates|
+| 1.1.4 | 2025-11-06 | FAIRe term update and minor spelling/grammar updates|
 
 ### Acronyms and Abbreviations
 
@@ -148,7 +148,7 @@ One person with molecular biology experience.
 
 ### Safety
 
-Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. For other reagents, standard precautions, including wearing PPE, should be taken to avoid skin and eye exposure to chemicals.
+Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. This protocol also uses bleach and ethanol, both of which are classified as hazardous chemicals. Appropriate PPE must be worn, and standard safety procedures should be followed to avoid skin and eye exposure.
 
 ### Training Requirements
 
