@@ -28,7 +28,7 @@ samp_vol_we_dna_ext_unit: mL
 nucl_acid_ext_lysis: physical | enzymatic | thermal
 nucl_acid_ext_sep: column-based
 nucl_acid_ext: https://doi.org/10.5281/zenodo.11398154
-nucl_acid_ext_kit: Qiagen DNeasy Blood and Tissue Kit, 250
+nucl_acid_ext_kit: QIAGEN DNeasy Blood and Tissue Kit, 250
 nucl_acid_ext_modify: Modified for sterivex, reagent volume altered
 dna_cleanup_0_1: 0
 dna_cleanup_method: not applicable
@@ -131,7 +131,7 @@ This document describes the required protocol to extract DNA from a 0.22 µm PES
 
 ### Summary
 
-Nucleic acid extraction from the sterivex filters using the Qiagen DNeasy Blood and Tissue Kit with some modifications to the manufacturer’s protocol. These extraction protocols, adapted from [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683), are used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
+Nucleic acid extraction from the sterivex filters using the QIAGEN DNeasy Blood and Tissue Kit with some modifications to the manufacturer’s protocol. These extraction protocols, adapted from [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683), are used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
 
 ### Method Description and Rationale
 
@@ -199,17 +199,17 @@ For a full extraction set, including 23 eDNA samples and a field blank:
 | Lab notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space|
 | Writing utensils | Sharpies and pens | Generic | 2 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH.  |
 |Trash bags for BSC|Teivio 1.2 Gallon 360 Counts Strong Trash Bags|Teivio|3|Can be substituted with generic.|
-| **QIAGEN Extraction Kit** | Qiagen DNeasy Blood and Tissue Kit - 250 extractions | QIAGEN | 1 | For this protocol at scale (i.e., 250 samples), additional volumes of some buffers need to be purchased.|
+| **QIAGEN Extraction Kit** | QIAGEN DNeasy Blood and Tissue Kit - 250 extractions | QIAGEN | 1 | For this protocol at scale (i.e., 250 samples), additional volumes of some buffers need to be purchased.|
 | *QIAGEN kit consumables* |  |  |  |  |
 | Spin columns | Mini spin column | **Included in kit** | 24 | Kit contains 250 columns - sufficient for 250 extractions using this protocol. |
 | Collection tubes | 2 mL collection tube | **Included in kit**| 48 | Kit contains 500 tubes - sufficient for 250 extractions using this protocol. |
 | *QIAGEN kit chemicals* |  |  |  |  |
 | Buffer ATL | QIAGEN Buffer ATL | **Included in kit, may need to purchase additional** | 17.28 mL | Kit contains 50 mL  - sufficient for 69 extractions using this protocol; requires 200 mL total for 250 extractions. |
-| Proteinase K | Qiagen Proteinase K | **Included in kit, may need to purchase additional** | 1920  μL  | Kit contains 6 mL - sufficient for 75 extractions using this protocol; requires 20 mL total for 250 extractions. |
-| Buffer AL | Qiagen Buffer AL | **Included in kit, may need to purchase additional** | 21.6 mL | Kit contains 66 mL - sufficient for 73 extractions using this protocol; requires 225 mL total for 250 extractions. |
-| Buffer AW1 | Qiagen Buffer AW1 | **Included in kit** | 12 mL | Kit contains 98 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
-| Buffer AW2 | Qiagen Buffer AW2| **Included in kit** | 12 mL| Kit contains 66 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
-| Buffer AE | Qiagen Buffer AE | **Included in kit** | 2400 μL | Kit contains 120 mL - sufficient for 1200 extractions using this protocol. |
+| Proteinase K | QIAGEN Proteinase K | **Included in kit, may need to purchase additional** | 1920  μL  | Kit contains 6 mL - sufficient for 75 extractions using this protocol; requires 20 mL total for 250 extractions. |
+| Buffer AL | QIAGEN Buffer AL | **Included in kit, may need to purchase additional** | 21.6 mL | Kit contains 66 mL - sufficient for 73 extractions using this protocol; requires 225 mL total for 250 extractions. |
+| Buffer AW1 | QIAGEN Buffer AW1 | **Included in kit** | 12 mL | Kit contains 98 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
+| Buffer AW2 | QIAGEN Buffer AW2| **Included in kit** | 12 mL| Kit contains 66 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
+| Buffer AE | QIAGEN Buffer AE | **Included in kit** | 2400 μL | Kit contains 120 mL - sufficient for 1200 extractions using this protocol. |
 | **Chemicals** |
 | 100% molecular grade EtOH | 200 proof molecular biology grade ethanol | Fisher Scientific | 30 mL|Can be substituted with generic, must be 200 proof and molecular biology grade. |
 | 70% EtOH | Molecular biology grade ethanol | 20 mL | For cleaning, can be substituted with generic. |
@@ -228,7 +228,7 @@ To minimize the risk of sample contamination, this protocol should be carried ou
 4. Set up two 50 mL tube racks, one for sterivex and one for syringes, within the BSC by lining the bottom of the rack with kimwipes, then turn on the UV light for 30 minutes to sterilize.
 5. Turn on the heatshaker to 56°C. If the Buffer ATL has precipitate, place in a heatshaker. Allow the buffer to heat until all precipitate is gone (~15 minutes), swirl as needed.
 6. Aliquot ~25 mL of 100% EtOH into a 50 mL Falcon tube and store at -20°C freezer for later use.
-7. Ensure 100% molecular grade EtOH has been added to Buffer AW1 and AW2 according to the Qiagen DNeasy Blood and Tissue Kit manufacturer's instructions. 
+7. Ensure 100% molecular grade EtOH has been added to Buffer AW1 and AW2 according to the QIAGEN DNeasy Blood and Tissue Kit manufacturer's instructions. 
 
 **Recommended (not required)**: Aliquot Buffer AW1 and AW2 into 50 mL Falcon tubes to reduce contamination caused by repeated use of large volume bottles.
 
