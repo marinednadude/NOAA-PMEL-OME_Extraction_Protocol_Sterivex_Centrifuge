@@ -15,10 +15,10 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 	480
 personnel_required: 1
 language: en
-issued:	2025-11-06
+issued:	2025-11-12
 audience: scientists
 publisher:	NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
-hasVersion: 1
+hasVersion: 1.1.4
 license: CC0 1.0 Universal
 maturity level: mature
 
@@ -33,7 +33,8 @@ nucl_acid_ext_modify: Modified for sterivex, reagent volume altered
 dna_cleanup_0_1: 0
 dna_cleanup_method: not applicable
 concentration: not applicable
-concentration_method: not applicable
+concentration_unit: ng/µl
+concentration_method: Qubit Fluorometer v.4 dsDNA high sensitivity kit
 ratioOfAbsorbance260_280: not applicable
 pool_dna_num: not applicable
 nucl_acid_ext_method_additional: not applicable
@@ -77,9 +78,9 @@ nucl_acid_ext_method_additional: not applicable
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge |https://github.com/HanWeinrich/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge.md  | 1.1.1  | 2025-11-06 |Internal |
-| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Qiavac | https://github.com/Brown-NOAA/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_QIAVac.md | 1.2.0 | 2025-11-06 |Internal|
-| NOAA-PMEL-OME_Qubit_Quantification_Protocol |https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol.md | 1.0.1  |2025-11-06| Internal |
+| NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge |https://github.com/HanWeinrich/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge.md  | 1.1.1  | 2025-11-12 |Internal |
+| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Qiavac | https://github.com/Brown-NOAA/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_QIAVac.md | 1.2.0 | 2025-11-12 |Internal|
+| NOAA-PMEL-OME_Qubit_Quantification_Protocol |https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol.md | 1.0.1  |2025-11-12| Internal |
 | Spens et al. 2017 |https://doi.org/10.1111/2041-210X.12683 | 1.0  | 2016-11-15  | External |
 
 ### Protocol Revision Record
@@ -95,7 +96,7 @@ nucl_acid_ext_method_additional: not applicable
 | 1.1.1 | 2025-05-30 | Minor content and format revisions |
 | 1.1.2 | 2025-06-10 | Added Qubit quantification protocol |
 | 1.1.3 | 2025-08-22 | Added disc filter extraction protocol, freshwater, corrected dates in related protocols |
-| 1.1.4 | 2025-11-06 | FAIRe term update and minor spelling/grammar updates|
+| 1.1.4 | 2025-11-12 | FAIRe term update and minor spelling/grammar updates|
 
 ### Acronyms and Abbreviations
 
