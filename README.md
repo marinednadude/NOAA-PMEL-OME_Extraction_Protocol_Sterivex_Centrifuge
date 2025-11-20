@@ -1,6 +1,6 @@
 # NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11398155.svg)](https://doi.org/10.5281/zenodo.11398155)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17655148.svg)](https://doi.org/10.5281/zenodo.17655148)
 
 See [NOAA-PMEL-OME-Extraction-Protocol-Sterivex-Centrifuge.md](https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Proctocol_Centrifuge.md) for detailed protocol.  
 
